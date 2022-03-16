@@ -1,0 +1,68 @@
+title: Offline
+url: https://offline.yhmk.org
+
+description: 同棲している二人が最近あったことや興味を持っていることについてお話するポッドキャストです。
+author: YHMK
+
+### author_url: This is the URL of a site owned by the author (see https://jsonfeed.org/version/1)
+author_url: "https://yhmk.org/"
+
+email: me@moeki.dev
+itunes_categories: [Technology]
+episodes_per_feed_page: 100
+
+player_theme: minimal
+
+date_format: ordinal
+
+language: ja
+explicit: "no" # "yes" | "no" | clean
+
+license: CC BY 4.0
+license_url: https://creativecommons.org/licenses/by/4.0/
+license_image_url: https://i.creativecommons.org/l/by/4.0/88x31.png
+
+# itunes_url: https://itunes.apple.com/at/podcast/myname/id232323
+# google_play_url: https://playmusic.app.goo.gl/...
+# bitlove_url: https://bitlove.org/myaccount
+# fyyd_url: https://fyyd.de/podcast/myaccount/myid
+# gpodder_url: https://gpodder.net/podcast/mypodcast
+
+episode_feed_formats: [mp3]
+json_feed_formats: [mp3]
+
+### Additional Feeds, optional
+#  itunes: http://itunes.apple.com/de/podcast/podcast_name/id42424242
+#  torrent_m4a: http://bitlove.org/example_user/example_podcast_m4a/feed
+#  torrent_mp3: http://bitlove.org/example_user/example_podcast_mp3/feed
+
+### Flattr config, optional
+flattr_uid: # Flattr will not be used unless this is set
+flattr_button: compact # compact | default
+flattr_mode: auto # auto | manual
+flattr_popout:  1 # 1 | 0 (show popout when hovering mouse over button)
+flattr_language: en_GB # available languages see https://api.flattr.com/rest/v2/languages.txt
+flattr_category: audio # available categories see https://api.flattr.com/rest/v2/categories.txt
+
+### Disqus comments
+disqus_shortname: # Disqus will not be used unless this is set
+disqus_developer: 0 # 1 | 0
+
+### Isso comments
+use_isso: "no" # "no" | "yes"
+
+theme: jekyll-bootflat
+
+### Jekyll Admin: uncomment the last line of this paragraph to enable Jekyll Admin.
+### (but you will loose auto regeneration after code changes with a text editor then)
+plugins:
+  - jekyll-octopod
+#  - jekyll-admin
+
+### Links to all domains, expect whitelisted will be rendered with rel="nofollow noopener noreferrer"
+# kramdown:
+#   input: 'NoopenerGFM'
+#   same_tab_domains:
+#     - localhost
+#     - 127.0.0.1
+#     - podcast.your-domain.com
