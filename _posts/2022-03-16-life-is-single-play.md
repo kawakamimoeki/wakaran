@@ -2,6 +2,11 @@
 id: 0
 title: 0. 人生は一人プレイ
 description: 近況、スマートウォッチ、人生ゲーム、ディズニー作品、ディズニーランド などについて話しました。
+contributors: 
+  - 
+    name: モエキ
+  -
+    name: ユイ
 date: 2022-03-16
 layout: post
 author: YHMK
