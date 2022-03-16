@@ -1,11 +1,11 @@
 ---
-title: Life is Single Play
+title: 0. 人生は一人プレイ
 date: 2022-03-16
 layout: post
 author: YHMK
 explicit: 'no'
 audio:
-  mp3: offline-2022-03-16.mp3
+  mp3: offline-ep0.mp3
 ---
 
 <!---
