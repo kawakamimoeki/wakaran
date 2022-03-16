@@ -16,8 +16,11 @@
 
 <ul>
   <li><a href="{{ site['url']}}/episodes.mp3.rss"><i class="fa fa-rss"></i> mp3-RSS-Feed</a></li>
-  {% if site.itunes_url %}
-    <li>in Apple-<a href="{{ site.itunes_url }}"><i class="fab fa-apple"></i> Itunes</a></li>
+  {% if site.apple_url %}
+    <li><a href="{{ site.apple_url }}"><i class="fab fa-apple"></i> Apple Podcast</a></li>
+  {% endif %}
+  {% if site.apple_url %}
+    <li><a href="{{ site.spotify_url }}"><i class="fab fa-spotify"></i> Spotify</a></li>
   {% endif %}
   {% if site.google_play_url %}
     <li>in <a href="{{ site.google_play_url }}"><i class="fab fa-google-play"></i>Google Play</a></li>    
