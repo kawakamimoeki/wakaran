@@ -1,14 +1,16 @@
 ---
-title: Episodes
+title: エピソード
 layout: default
-navigation: 0
 ---
-{% assign post = site.posts.first %}
-{% include post.html %}
 
-{% assign current_post = site.posts.first %}
+<ul>
 {% for post in site.posts -%}
-  {% unless post.url == current_post.url -%}
-    {% include post_line.html %}
-  {% endunless %}
+  <li class="text-left">
+    <header>
+      <h2 class="inline"><a class="font-bold text-lg" href='{{ site.url }}{{ post.url }}#{{ post.id | sha1:8 }}'>{{ post.title }}</a></h2>
+      <time class="opacity-80" datetime="{{ post.date }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+    </header>
+    <p>{{ post.description }}</p>
+  </li>
 {% endfor %}
+</ul>

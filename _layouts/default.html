@@ -12,15 +12,7 @@
   <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/general_feed.xml" title="General Site Atom Feed (No Podcast Metadata!)" />
   {{ site | episode_feeds_html }}
 
-  <link href='/assets/css/ubuntu.css' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/main.css">
-
-  <script type='text/javascript' src="{{ site.url }}/assets/js/jquery.min.js"></script>
-  <script type='text/javascript' src="{{ site.url }}/assets/js/bootstrap.min.js"></script>
-  <script type='text/javascript' src="{{ site.url }}/assets/js/icheck.min.js"></script>
-  <script type='text/javascript' src="{{ site.url }}/assets/js/jquery.fs.selecter.min.js"></script>
-  <script type='text/javascript' src="{{ site.url }}/assets/js/jquery.fs.stepper.min.js"></script>
-  <script type='text/javascript' src="{{ site.url }}/assets/js/custom.js"></script>
 
   {% if site.flattr_uid %}{% include flattr_loader.html %}{% endif %}
   {% if site.disqus_shortname %}
@@ -30,53 +22,31 @@
   {% endif %}
 </head>
 
-<body>
-  <div class="container-fluid">
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            {{ site | navigation_list:page }}
-          </ul>
-          <form class="navbar-form navbar-right" action="https://google.com/search" method="get" role="search">
-            <div class="form-group">
-              <input type="text" name="q" class="form-control" placeholder="search item" value="">
-              <input type="hidden" name="q" value="site:{{ site.url | host_from_url }}" />
-            </div>
-            <button type="submit" class="btn btn-default">Search</button>
-          </form>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
+<body class="bg-slate-600 text-white text-center m-auto" style="max-width: 400px;">
+  <header class="my-10">
+    <h1 class="font-bold text-2xl mb-5">
+      <a href="/">offline</a></h1>
+    <img width="200px" src="{{ site.url }}/img/logo.jpg" alt="{{ site.title }} logo" class="inline rounded-lg">
+    <p class="p-3">{{ site.description }}</p>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer class="mt-10">
+    <h3 class="mt-5 font-bold text-xl">Subscribe</h3>
 
-    <div class="container">
-      <div class="row ">
-        <div class="col-sm-8">
-          <div class="content">
-            {{ content }}
-          </div>
-        </div>
-        <div id="sidebar" class="col-sm-4">
-          <div class="well">
-            {% include sidebar.html %}
-          </div>
-        </div>
-      </div>
-      <div class="row" id="footer">
-        <small class="pull-right">
-          Powered by <a href="https://jekyll-octopod.github.io/">jekyll-octopod</a>
-          and <a href="http://jekyllrb.com/">Jekyll</a>.
-        </small>
-      </div>
-    </div><!-- /.container -->
-  </div><!-- /.container -->
+    <ul>
+      <li><a target="_blank" href="{{ site['url']}}/episodes.mp3.rss"><i class="fa fa-rss"></i> mp3-RSS-Feed</a></li>
+      <li><a target="_blank" href="{{ site.apple_url }}"><i class="fab fa-apple"></i> Apple Podcast</a></li>
+      <li><a target="_blank" href="{{ site.spotify_url }}"><i class="fab fa-spotify"></i> Spotify</a></li>
+      <li><a target="_blank" href="{{ site.google_play_url }}"><i class="fab fa-google-play"></i>Google Play</a></li>    
+    </ul>
+    
+    <h3 class="mt-5 font-bold text-xl">Links</h3>
+    
+    <ul>
+      <li><a target="_blank" href="https://yhmk.org">yhmk.org</a></li>
+      <li><a target="_blank" href="https://moeki.dev">moeki.dev</a></li>
+    </ul>
+  </footer>
 </html>
