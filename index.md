@@ -1,5 +1,5 @@
 ---
-title: エピソード
+title: Podcast by YHMK
 layout: default
 ---
 
