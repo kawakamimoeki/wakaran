@@ -1,12 +1,12 @@
 ---
-title: 1. Life is Single Play
+title: Life is Single Play
 description: 近況、スマートウォッチ、人生ゲーム、ディズニー作品、ディズニーランド などについて話しました。
 date: 2022-03-16
 layout: post
 author: YHMK
 explicit: 'no'
 audio:
-  mp3: offline-ep1.mp3
+  mp3: offline-2022-03-16.mp3
 ---
 
 <!---
