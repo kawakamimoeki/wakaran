@@ -2,8 +2,6 @@
 layout: default
 ---
 
-{% for post in site.posts %}
-  <h2 class="font-bold text-xl mb-5">{{ page.title }}</h2>
-  <audio class="w-full mb-5" controls src="/episodes/{{ page.audio.mp3 }}"></audio>
-  {{ page.content }}
-{% endfor %}
+<h2 class="font-bold text-xl mb-5">{{ page.title }}</h2>
+<audio class="w-full mb-5" controls src="/episodes/{{ page.audio.mp3 }}"></audio>
+{{ page.content }}
