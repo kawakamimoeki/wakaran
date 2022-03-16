@@ -1,0 +1,2 @@
+site: bundle exec octopod serve
+tailwind: yarn dev:css
