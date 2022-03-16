@@ -472,16 +472,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin: auto;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .mt-5 {
   margin-top: 1.25rem;
 }
 
 .mb-10 {
   margin-bottom: 2.5rem;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
 }
 
 .mt-10 {
@@ -503,14 +503,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-slate-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(71 85 105 / var(--tw-bg-opacity));
-}
-
-.p-5 {
-  padding: 1.25rem;
-}
-
-.p-6 {
-  padding: 1.5rem;
 }
 
 .p-7 {
