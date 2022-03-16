@@ -5,7 +5,6 @@
 <section id="{{ post.id | sha1:8 }}" class="active">
   {% include post_header.html %}
   {{ post.content }}
-  <hr>
   {{ site | flattr_button:post }}
   {% unless page.url == '/index.html' %}{% include disqus_thread.html %}{% endunless %}
   {% unless page.url == '/index.html' %}{% include isso_thread.html %}{% endunless %}
