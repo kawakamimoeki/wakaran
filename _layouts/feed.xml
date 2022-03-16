@@ -60,6 +60,12 @@ layout: null
             <atom:link rel="http://podlove.org/deep-link" href="{{ site.url }}/players/{{ post.slug }}"/>
             <comments>{{ site.url }}{{ post.url }}#disqus_thread</comments>
             <pubDate>{{ post.date | time_to_rssschema }}</pubDate>
+            <atom:contributor>
+              <atom:name>Moeki</atom:name>
+            </atom:contributor>
+            <atom:contributor>
+              <atom:name>Yui</atom:name>
+            </atom:contributor>
             {% for category in post.categories %}
             <category><![CDATA[{{ category }}]]></category>
             {% endfor %}
