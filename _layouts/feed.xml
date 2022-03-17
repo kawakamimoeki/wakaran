@@ -78,7 +78,7 @@ layout: null
             {% endif %}
             <itunes:keywords>{{ post.tags }}</itunes:keywords>
             <itunes:subtitle>{{ post.description }}</itunes:subtitle>
-            <itunes:summary>{{ post.summary }}</itunes:summary>
+            <itunes:summary>{{ post.description }}</itunes:summary>
             <itunes:author>{{ post.author | otherwise:site.author }}</itunes:author>
             <itunes:explicit>{{ post.explicit | otherwise:site.explicit }}</itunes:explicit>
             <itunes:duration>{{ post.duration }}</itunes:duration>
