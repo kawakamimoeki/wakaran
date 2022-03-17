@@ -60,12 +60,6 @@ layout: null
             <atom:link rel="http://podlove.org/deep-link" href="{{ site.url }}/players/{{ post.slug }}"/>
             <comments>{{ site.url }}{{ post.url }}#disqus_thread</comments>
             <pubDate>{{ post.date | time_to_rssschema }}</pubDate>
-            <atom:contributor>
-              <atom:name>Moeki</atom:name>
-            </atom:contributor>
-            <atom:contributor>
-              <atom:name>Yui</atom:name>
-            </atom:contributor>
             {% for category in post.categories %}
             <category><![CDATA[{{ category }}]]></category>
             {% endfor %}
@@ -83,7 +77,7 @@ layout: null
                          type="{{ page.format | mime_type }}" />
             {% endif %}
             <itunes:keywords>{{ post.tags }}</itunes:keywords>
-            <itunes:subtitle>{{ post.subtitle }}</itunes:subtitle>
+            <itunes:subtitle>{{ post.description }}</itunes:subtitle>
             <itunes:summary>{{ post.summary }}</itunes:summary>
             <itunes:author>{{ post.author | otherwise:site.author }}</itunes:author>
             <itunes:explicit>{{ post.explicit | otherwise:site.explicit }}</itunes:explicit>
