@@ -2,11 +2,13 @@
 id: 1
 title: 第1回 「飲み物を飲むよりも水分補給がしたい」
 description: ポッドキャスト、Garmin vivosmart4、猫、トラックボール、好きな飲物 などについて話しました。
-contributors: 
+contributors:
   - 
     name: モエキ
+    url: https://moeki.dev
   -
     name: ユイ
+    url: https://yhmk.org
 date: 2022-03-17
 layout: post
 author: YHMK
