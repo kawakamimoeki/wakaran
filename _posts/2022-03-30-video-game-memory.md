@@ -5,8 +5,10 @@ description: 太鼓の達人、ゼルダの伝説、メタルギアソリッド�
 contributors:
   - 
     name: モエキ
+    url: https://moeki.dev
   -
     name: ユイ
+    url: https://yhmk.org
 date: 2022-03-30
 layout: post
 author: YHMK
