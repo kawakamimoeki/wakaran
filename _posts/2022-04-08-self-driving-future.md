@@ -25,5 +25,6 @@ audio:
 <li>公共交通機関との差別化</li>
 <li>自動運転ができたら車の中で何したい？</li>
 <li>NFTわからん</li>
+<li>Beats Studio 3</li>
 <li>スキューモフィズム</li>
 </ul>
