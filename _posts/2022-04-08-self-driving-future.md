@@ -5,10 +5,10 @@ description: 自動運転が普及した世界についてお話しました。
 contributors:
   - 
     name: モエキ
-    url: https://moeki.dev
+    uri: https://moeki.dev
   -
     name: ユイ
-    url: https://yhmk.org
+    uri: https://yhmk.org
 date: 2022-04-08
 layout: post
 author: YHMK

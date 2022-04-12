@@ -5,10 +5,10 @@ description: ポッドキャスト、Garmin vivosmart4、猫、トラックボ�
 contributors:
   - 
     name: モエキ
-    url: https://moeki.dev
+    uri: https://moeki.dev
   -
     name: ユイ
-    url: https://yhmk.org
+    uri: https://yhmk.org
 date: 2022-03-17
 layout: post
 author: YHMK
