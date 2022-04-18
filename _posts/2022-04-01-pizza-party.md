@@ -1,6 +1,6 @@
 ---
 id: 5
-title: 第5回 「変わってんのカナァ!？」
+title: 変わってんのカナァ!？
 description: Podcast, 「問いこそが答えだ! 正しく問う力が仕事と人生の視界を開く」, Dyson Zone, 危ない危険, バカリズム「女子力」などについて話しました。
 contributors:
   - 

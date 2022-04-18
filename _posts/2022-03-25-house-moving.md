@@ -1,6 +1,6 @@
 ---
 id: 3
-title: 第3回 「引っ越し」
+title: 引っ越し
 description: 我々2人が同棲を始める際の引っ越しについて話しました。
 contributors:
   - 
