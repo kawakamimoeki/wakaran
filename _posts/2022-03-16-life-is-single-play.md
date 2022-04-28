@@ -13,6 +13,7 @@ date: 2022-03-16
 layout: post
 author: YHMK
 explicit: 'no'
+filesize: 71586713
 audio:
   mp3: wakaran-ep0.mp3
 ---

@@ -13,13 +13,9 @@ date: 2022-04-26
 layout: post
 author: YHMK
 explicit: 'no'
+filesize: 62885532
 audio:
   mp3: wakaran-ep12.mp3
-chapters:
-  - "00:00:00.000 イントロ"
-  - "00:01:30.000 近況"
-  - "00:09:37.000 今回のテーマ"
-  - "00:39:15.000 賃貸の制約の楽しみ"
 ---
 
 {{ page.description }}
