@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/episode.js": {
+      "excludeFiles": "img/**"
+    }
+  }
+}
