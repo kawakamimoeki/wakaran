@@ -2,6 +2,7 @@
   "name": "wakaran",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "repository": "https://github.com/moekidev/wakaran",
   "author": "moekidev <me@moeki.dev>",
   "license": "MIT",
