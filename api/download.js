@@ -1,4 +1,4 @@
-const fetch = require('@vercel/fetch')(require('ky'))
+const fetch = require('@vercel/fetch')(require('node-fetch'))
 
 export default function handler(request, response) {
   fetch(`https://www.google-analytics.com?api_secret=${process.env.ANALYTICS_SECRET}&measurement_id=G-P50R59GSVY`, {
