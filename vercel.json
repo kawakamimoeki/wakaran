@@ -1,7 +1,7 @@
 {
   "functions": {
-    "episodes/download.rb": {
-      "excludeFiles": "episodes/*.mp3"
+    "api/download.rb": {
+      "excludeFiles": "episodes/**/*.mp3"
     }
   }
 }
