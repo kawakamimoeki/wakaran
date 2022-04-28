@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/episode.js": {
+    "api/episode.rb": {
       "excludeFiles": "img/**"
     }
   }
