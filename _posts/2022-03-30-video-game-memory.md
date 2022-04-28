@@ -13,9 +13,10 @@ date: 2022-03-30
 layout: post
 author: YHMK
 explicit: 'no'
-filesize: 75545831
 audio:
-  mp3: wakaran-ep4.mp3
+  mp3:
+    filename: wakaran-ep4.mp3
+    filesize: 75545831
 ---
 
 {{ page.description }}

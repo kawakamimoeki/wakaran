@@ -1,6 +1,7 @@
 ---
 layout: null
 format: mp3
+mimetype: audio/mpeg
 ---
 
 <?xml version="1.0"
@@ -55,10 +56,10 @@ format: mp3
           <guid isPermaLink="false">{{ site.url }}{{ post.url }}</guid>
           <description><![CDATA[{{ post.content | expand_urls: site.url }}]]></description>
           <content:encoded><![CDATA[{{ post.content | expand_urls: site.url }}]]></content:encoded>
-          {% assign url = site.download_url | append: '/' | append: post.audio[page.format] %}
+          {% assign url = site.download_url | append: '/' | append: post.audio[page.format].filename %}
             <enclosure url="{{ url }}" 
-                        length="{{ post.filesize }}" 
-                        type="audio/mpeg" />
+                        length="{{ post.audio[page.format].filesize }}" 
+                        type="{{ page.mimetype }}" />
           <itunes:keywords>{{ post.tags }}</itunes:keywords>
           <itunes:subtitle>{{ post.description }}</itunes:subtitle>
           <itunes:summary>{{ post.description }}</itunes:summary>
