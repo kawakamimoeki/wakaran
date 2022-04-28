@@ -7,8 +7,8 @@
   "author": "moekidev <me@moeki.dev>",
   "license": "MIT",
   "scripts": {
-    "dev:css": "tailwindcss -i ./frontend/css/main.css -o ./assets/css/main.css --watch",
-    "build:css": "tailwindcss -i ./frontend/css/main.css -o ./assets/css/main.css",
+    "dev:css": "tailwindcss -i ./frontend/css/main.css -o ./assets/css/main.css --watch -c ./tailwind.config.cjs",
+    "build:css": "tailwindcss -i ./frontend/css/main.css -o ./assets/css/main.css -c ./tailwind.config.cjs",
     "build": "yarn run build:css && bundle exec jekyll build"
   },
   "devDependencies": {
