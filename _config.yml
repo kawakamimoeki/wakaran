@@ -30,7 +30,6 @@ google_url: https://podcasts.google.com/feed/aHR0cHM6Ly93YWthcmFuLnlobWsub3JnL2V
 # gpodder_url: https://gpodder.net/podcast/mypodcast
 
 episode_feed_formats: [mp3]
-json_feed_formats: [mp3]
 
 ### Additional Feeds, optional
 #  itunes: http://itunes.apple.com/de/podcast/podcast_name/id42424242
