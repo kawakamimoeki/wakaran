@@ -1,2 +1,2 @@
-site: bundle exec octopod serve
+site: bundle exec jekyll serve
 tailwind: yarn dev:css
