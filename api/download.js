@@ -1,7 +1,8 @@
-import ky from 'ky'
+import fetch from 'node-fetch'
 
-export default async function handler(request, response) {
-  await ky.post('https://www.google-analytics.com?api_secret=SC-FSW2mQ9qfws_TjfuiJg&measurement_id=G-P50R59GSVY', {
+export default function handler(request, response) {
+  fetch(`https://www.google-analytics.com?api_secret=${process.env.ANALYTICS_SECRET}&measurement_id=G-P50R59GSVY`, {
+    method: 'POST',
     body: JSON.stringify({
       client_id: 'web',
       events: [{
@@ -12,5 +13,5 @@ export default async function handler(request, response) {
         }
       }]
     })
-  }).json()
+  })
 }

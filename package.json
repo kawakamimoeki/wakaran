@@ -11,7 +11,7 @@
     "build": "yarn run build:css && bundle exec jekyll build"
   },
   "devDependencies": {
-    "ky": "^0.30.0",
+    "node-fetch": "^3.2.4",
     "tailwindcss": "^3.0.23"
   }
 }
