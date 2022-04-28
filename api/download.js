@@ -1,4 +1,4 @@
-import fetch from '@vercel/fetch'
+const fetch = require('@vercel/fetch')(require('some-fetch-implementation'))
 
 export default function handler(request, response) {
   fetch(`https://www.google-analytics.com?api_secret=${process.env.ANALYTICS_SECRET}&measurement_id=G-P50R59GSVY`, {
