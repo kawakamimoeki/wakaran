@@ -8,8 +8,7 @@ export default function handler(request, response) {
       events: [{
         name: 'download',
         params: {
-          filename: 'wakaran-ep12',
-          response: JSON.stringify(response)
+          filename: 'wakaran-ep12'
         }
       }]
     })
