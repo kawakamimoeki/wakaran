@@ -14,5 +14,7 @@ export default async function handler(request, response) {
     })
   })
 
-  response.status(200).json(res.json())
+  const result = await res.json()
+  console.log(result)
+  response.status(200).json(result)
 }
