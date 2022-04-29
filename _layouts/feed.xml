@@ -58,7 +58,7 @@
           <itunes:summary>{{ post.description }}</itunes:summary>
           <itunes:author>{{ post.author | otherwise:site.author }}</itunes:author>
           <itunes:duration>{{ post.duration }}</itunes:duration>
-          <itunes:order>{{ post.id }}</itunes:order>
+          <itunes:order>{{ post.order }}</itunes:order>
           {%- if post.contributors -%}
              {%- for contributor in post.contributors -%}
              <atom:contributor>

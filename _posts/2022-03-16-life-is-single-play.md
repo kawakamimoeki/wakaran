@@ -12,8 +12,9 @@ contributors:
 date: 2022-03-16
 layout: post
 author: YHMK
+order: 1
 explicit: 'no'
-duration: 00:49:42
+duration: '00:49:42'
 audio:
   mp3:
     filename: ep0.mp3

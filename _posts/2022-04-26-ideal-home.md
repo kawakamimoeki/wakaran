@@ -13,7 +13,8 @@ date: 2022-04-26
 layout: post
 author: YHMK
 explicit: 'no'
-duration: 00:52:24
+order: 13
+duration: '00:52:24'
 audio:
   mp3:
     filename: ep12.mp3
