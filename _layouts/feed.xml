@@ -13,7 +13,7 @@
     <atom:link href="{{ site.url }}/episodes.{{ page.format }}.rss{{page.myself}}" rel="self" type="application/rss+xml" title="{{ page.format }} Episode RSS-Feed"/>
 
     <description>{{ site.description | markdownify | strip_html }}</description>
-    <lastBuildDate>{{ site.time | time_to_rssschema }}</lastBuildDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <language>{{ site.language }}</language>
 
     <itunes:summary>{{ site.description | markdownify | strip_html }}</itunes:summary>
@@ -43,7 +43,7 @@
           <link>{{ site.url }}{{ post.url }}</link>
           <atom:link rel="http://podlove.org/deep-link" href="{{ site.url }}/players/{{ post.slug }}"/>
           <comments>{{ site.url }}{{ post.url }}#disqus_thread</comments>
-          <pubDate>{{ post.date | time_to_rssschema }}</pubDate>
+          <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
           {% for category in post.categories %}
           <category><![CDATA[{{ category }}]]></category>
           {% endfor %}
