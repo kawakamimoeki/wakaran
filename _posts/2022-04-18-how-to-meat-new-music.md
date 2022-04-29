@@ -15,7 +15,7 @@ author: YHMK
 explicit: 'no'
 audio:
   mp3:
-    filename: wakaran-ep9.mp3
+    filename: ep9.mp3
     filesize: 53641256
 ---
 

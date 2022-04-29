@@ -15,7 +15,7 @@ author: YHMK
 explicit: 'no'
 audio:
   mp3:
-    filename: wakaran-ep12.mp3
+    filename: ep12.mp3
     filesize: 62885532
 ---
 

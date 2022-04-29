@@ -15,7 +15,7 @@ author: YHMK
 explicit: 'no'
 audio:
   mp3:
-    filename: wakaran-ep8.mp3
+    filename: ep8.mp3
     filesize: 55122048
 ---
 

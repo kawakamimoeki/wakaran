@@ -15,7 +15,7 @@ author: YHMK
 explicit: 'no'
 audio:
   mp3:
-    filename: wakaran-ep7.mp3
+    filename: ep7.mp3
     filesize: 29179947
 ---
 
