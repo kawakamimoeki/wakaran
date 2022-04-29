@@ -57,6 +57,14 @@
           <itunes:subtitle>{{ post.description }}</itunes:subtitle>
           <itunes:summary>{{ post.description }}</itunes:summary>
           <itunes:author>{{ post.author | otherwise:site.author }}</itunes:author>
+          {%- if post.contributors -%}
+             {%- for contributor in post.contributors -%}
+             <atom:contributor>
+               <atom:name>{{ contributor.name}}</atom:name>
+               <atom:uri>{{ contributor.uri}}</atom:uri>
+             </atom:contributor>
+             {%- endfor -%}
+           {%- endif -%}
         </item>
       {%- endif -%}
     {%- endfor -%}
