@@ -13,6 +13,7 @@ date: 2022-04-16
 layout: post
 author: YHMK
 explicit: 'no'
+duration: 00:28:42
 audio:
   mp3:
     filename: ep8.mp3

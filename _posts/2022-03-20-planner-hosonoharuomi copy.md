@@ -13,6 +13,7 @@ date: 2022-03-20
 layout: post
 author: YHMK
 explicit: 'no'
+duration: 00:37:06
 audio:
   mp3:
     filename: ep2.mp3
