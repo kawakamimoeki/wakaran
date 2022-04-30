@@ -1,6 +1,6 @@
 ---
 id: 14
-title: ポッドキャスト配信の技術的な手法
+title: Backyard Episode - ポッドキャスト配信の技術的な手法
 description: 『分からんラジオ』を配信する上での技術的な知見が溜まったので紹介します。
 contributors:
   - 
