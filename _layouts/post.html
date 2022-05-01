@@ -4,6 +4,17 @@ layout: default
 
 <h2 class="font-bold text-xl mb-5">{{ page.title }}</h2>
 <audio class="w-full mb-5" controls src="{{ site.download_url }}/{{ page.audio.mp3.filename }}"></audio>
+
+<h3 class="mb-3 text-lg font-bold">あなたの声をお聞かせください。</h3>
+
+<div class="mb-5" data-controller="rating" data-rating-rating-value="0" data-rating-episode-value="{{ page.title }}">
+  <i class="text-3xl fa-regular fa-star" data-rating-target="star" data-rating="1"></i>
+  <i class="text-3xl fa-regular fa-star" data-rating-target="star" data-rating="2"></i>
+  <i class="text-3xl fa-regular fa-star" data-rating-target="star" data-rating="3"></i>
+  <i class="text-3xl fa-regular fa-star" data-rating-target="star" data-rating="4"></i>
+  <i class="text-3xl fa-regular fa-star" data-rating-target="star" data-rating="5"></i>
+</div>
+
 <div class="text-left article">
   {{ page.content }}
 </div>
