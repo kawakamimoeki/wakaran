@@ -1941,6 +1941,7 @@
           episode: this.episodeValue,
           rating: this.ratingValue,
         });
+        this.thankyouTarget.classList.remove('hidden');
       }
     }
 
@@ -1950,7 +1951,8 @@
     };
 
     RatingController.targets = [
-      'star'
+      'star',
+      'thankyou'
     ];
 
     const app = Application.start();

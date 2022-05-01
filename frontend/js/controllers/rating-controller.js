@@ -22,6 +22,7 @@ class RatingController extends Controller {
       episode: this.episodeValue,
       rating: this.ratingValue,
     })
+    this.thankyouTarget.classList.remove('hidden')
   }
 }
 
@@ -31,7 +32,8 @@ RatingController.values = {
 }
 
 RatingController.targets = [
-  'star'
+  'star',
+  'thankyou'
 ]
 
 export { RatingController }

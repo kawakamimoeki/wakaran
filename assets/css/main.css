@@ -492,8 +492,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0.75rem;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .inline {
   display: inline;
+}
+
+.hidden {
+  display: none;
 }
 
 .w-full {
