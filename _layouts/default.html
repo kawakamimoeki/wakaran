@@ -28,7 +28,7 @@
   {% if site.description %}<meta name="description" content="{{ site.description | markdownify | strip_html }}">{% endif %}
   {% if site.author %}<meta name="author" content="{{ site.author }}">{% endif %}
 
-  <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/main.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
   <script src="/assets/js/main.js"></script>
   <style>
     .article ul {
@@ -40,11 +40,11 @@
   </style>
 </head>
 
-<body class="p-7 text-white text-center m-auto" style="max-width: 400px; background-color: #8C52FF;">
+<body class="p-7 text-black bg-white text-center m-auto" style="max-width: 400px;">
   <header class="mt-5 mb-10">
     <h1 class="font-bold text-2xl mb-5">
       <a href="/">分からんラジオ</a></h1>
-    <img width="200px" src="{{ site.url }}/img/logo.jpg" alt="{{ site.title }} logo" class="inline rounded-lg">
+    <img width="200px" height="200px" src="/img/logo.jpg" alt="{{ site.title }} logo" class="inline rounded-lg">
     <p class="mt-5">{{ site.description }}</p>
 
     <h3 class="mt-5 font-bold text-xl">配信サービス</h3>
