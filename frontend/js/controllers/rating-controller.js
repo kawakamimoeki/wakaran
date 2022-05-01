@@ -27,7 +27,7 @@ class RatingController extends Controller {
 }
 
 RatingController.values = {
-  episodeValue: String,
+  episode: String,
   rating: Number
 }
 
