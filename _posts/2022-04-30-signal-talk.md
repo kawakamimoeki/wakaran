@@ -23,6 +23,8 @@ audio:
 
 {{ page.description }}
 
+ぜひ、[ホームページ](https://wakaran.yhmk.org/2022/04/30/signal-talk.html#/2022/04/30/signal-talk)からエピソードの評価をお願いします！
+
 - [日本の交通信号機 - Wikipedia](https://ja.wikipedia.org/wiki/日本の交通信号機)
 - [人を単純作業から解放した信号機の歴史.　海上信号から現在の信号機まで \| 試作.com](https://www.shisaku.com/blog/anatomy/post-64.html)
 - [信号機の歴史 \| 沖縄県警察](https://www.police.pref.okinawa.jp/docs/2015030500091/)

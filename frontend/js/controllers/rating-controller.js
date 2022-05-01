@@ -2,15 +2,15 @@ import { Controller } from '@hotwired/stimulus'
 
 class RatingController extends Controller {
   connect() {
-    this.starTargets.forEach((target) => {
+    this.thumbTargets.forEach((target) => {
       target.addEventListener('click', this.handleRatingClick.bind(this))
     })
   }
 
   handleRatingClick(event) {
     this.ratingValue = event.target.dataset.rating
-    this.starTargets.forEach((target) => {
-      if (target.dataset.rating <= this.ratingValue) {
+    this.thumbTargets.forEach((target) => {
+      if (this.ratingValue == target.dataset.rating) {
         target.classList.add('fa-solid')
         target.classList.remove('fa-regular')
       } else {
@@ -32,7 +32,7 @@ RatingController.values = {
 }
 
 RatingController.targets = [
-  'star',
+  'thumb',
   'thankyou'
 ]
 
