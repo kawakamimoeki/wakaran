@@ -1938,7 +1938,6 @@
           }
         });
         gtag('event', 'rating', {
-          episode: this.episodeValue,
           rating: this.ratingValue,
         });
         this.thankyouTarget.classList.remove('hidden');
@@ -1946,7 +1945,6 @@
     }
 
     RatingController.values = {
-      episodeValue: String,
       rating: Number
     };
 

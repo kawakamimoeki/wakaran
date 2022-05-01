@@ -19,7 +19,6 @@ class RatingController extends Controller {
       }
     })
     gtag('event', 'rating', {
-      episode: this.episodeValue,
       rating: this.ratingValue,
     })
     this.thankyouTarget.classList.remove('hidden')
@@ -27,7 +26,6 @@ class RatingController extends Controller {
 }
 
 RatingController.values = {
-  episode: String,
   rating: Number
 }
 
