@@ -4,7 +4,7 @@ module.exports = {
     "./_layouts/**/*.{html,js}",
     "./*.md",
     "./*.html",
-    "./contact/*.html",
+    "./otayori/*.html",
   ],
   theme: {
     extend: {},
