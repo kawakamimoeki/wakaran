@@ -15,6 +15,10 @@
     {
       "source": "/amazon",
       "destination": "https://music.amazon.co.jp/podcasts/da518c15-b7ce-49fd-941b-78f9c0aa7504/分からんラジオ?refMarker=null&"
+    },
+    {
+      "source": "/contact",
+      "destination": "https://wakaran.yhmk.org/otayori"
     }
   ]
 }
