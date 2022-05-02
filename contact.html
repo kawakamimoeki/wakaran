@@ -7,17 +7,17 @@ layout: default
 
 <form class="text-left" action="https://wkrn.yhmk.org/contact" method="POST">
   <label class="block font-bold" for="name">ラジオネーム</label>
-  <input class="p-1 mb-3 block border-2 w-full border-inherit" type="text" name="name">
+  <input class="p-1 mb-3 block border-2 w-full border-inherit" type="text" name="contact[name]">
   <label class="block font-bold" for="email">メールアドレス（任意）</label>
-  <input class="p-1 mb-3 block border-2 w-full border-inherit" type="email" name="email">
+  <input class="p-1 mb-3 block border-2 w-full border-inherit" type="email" name="contact[email]">
   <label class="block font-bold" for="episode">エピソード（任意）</label>
-  <select class="mb-3 w-full" name="episode">
+  <select class="mb-3 w-full" name="contact[episode]">
     <option disabled selected value>特になし</option>
   {%- for post in site.posts -%}
     <option value="{{ post.title }}">{{ post.title }}</option>
   {% endfor %}
   </select>
   <label class="block font-bold" for="content">本文</label>
-  <textarea class="p-1 mb-9 block border-2 w-full border-inherit" name="content"></textarea>
+  <textarea class="p-1 mb-9 block border-2 w-full border-inherit" name="contact[content]"></textarea>
   <button class="w-full p-3 rounded-md bg-sky-600 text-white font-bold" type="submit">お便りを送る</button>
 </form>
