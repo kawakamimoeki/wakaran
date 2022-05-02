@@ -27,6 +27,7 @@ license_image_url: https://i.creativecommons.org/l/by/4.0/88x31.png
 spotify_url: https://open.spotify.com/show/3QleUJ3vpFiEafMjBMv4Zq
 apple_url: https://podcasts.apple.com/us/podcast/分からんラジオ/id1617493816
 google_url: https://podcasts.google.com/feed/aHR0cHM6Ly93YWthcmFuLnlobWsub3JnL2VwaXNvZGVzLm1wMy5yc3M
+amazon_url: https://music.amazon.co.jp/podcasts/da518c15-b7ce-49fd-941b-78f9c0aa7504/分からんラジオ?refMarker=null&
 
 episode_feed_formats: 
   - mp3
