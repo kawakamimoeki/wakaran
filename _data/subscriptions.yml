@@ -1,0 +1,18 @@
+-
+  name: RSS
+  url: /episodes.mp3.rss
+-
+  name: Apple Podcast
+  url: https://podcasts.apple.com/us/podcast/分からんラジオ/id1617493816
+-
+  name: Spotify
+  url: https://open.spotify.com/show/3QleUJ3vpFiEafMjBMv4Zq
+-
+  name: Google Podcast
+  url: https://podcasts.google.com/feed/aHR0cHM6Ly93YWthcmFuLnlobWsub3JnL2VwaXNvZGVzLm1wMy5yc3M
+-
+  name: Amazon Music
+  url: https://music.amazon.co.jp/podcasts/da518c15-b7ce-49fd-941b-78f9c0aa7504/分からんラジオ?refMarker=null&
+-
+  name: YouTube
+  url: https://www.youtube.com/channel/UCoS4YRIDZx0K34RpHbw-yqQ
