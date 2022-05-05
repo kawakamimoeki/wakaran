@@ -3,15 +3,9 @@ title: Podcast by YHMK
 layout: default
 ---
 
-<h3 class="mt-5 font-bold text-xl">お便り</h3>
-
-<p class="mb-3">ご意見・ご感想をお待ちしております。</p>
-
-<a href="/contact" class="block text-white mb-6 font-bold p-3 rounded-md bg-sky-600 w-full">お便りフォーム</a>
-
 <h3 class="mt-5 font-bold text-xl">メンバー</h3>
 
-<ul class="mt-5">
+<ul>
 {% for member in site.members -%}
   <li class="mb-10">
     <h4 class="font-bold text-lg mb-2">
