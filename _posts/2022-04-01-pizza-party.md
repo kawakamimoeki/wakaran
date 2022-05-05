@@ -5,10 +5,10 @@ description: Podcast, 「問いこそが答えだ! 正しく問う力が仕事�
 contributors:
   - 
     name: モエキ
-    uri: https://moeki.dev
+    uri: https://wakaran.yhmk.org/members/moeki
   -
     name: ユイ
-    uri: https://yhmk.org
+    uri: https://wakaran.yhmk.org/members/yui
 date: 2022-04-01
 layout: post
 author: YHMK

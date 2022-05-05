@@ -5,10 +5,10 @@ description: 近況、スマートウォッチ、人生ゲーム、ディズニ�
 contributors:
   - 
     name: モエキ
-    uri: https://moeki.dev
+    uri: https://wakaran.yhmk.org/members/moeki
   -
     name: ユイ
-    uri: https://yhmk.org
+    uri: https://wakaran.yhmk.org/members/yui
 date: 2022-03-16
 layout: post
 author: YHMK

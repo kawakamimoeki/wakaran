@@ -5,10 +5,10 @@ description: 我々2人が同棲を始める際の引っ越しについて話し
 contributors:
   - 
     name: モエキ
-    uri: https://moeki.dev
+    uri: https://wakaran.yhmk.org/members/moeki
   -
     name: ユイ
-    uri: https://yhmk.org
+    uri: https://wakaran.yhmk.org/members/yui
 date: 2022-03-25
 layout: post
 author: YHMK

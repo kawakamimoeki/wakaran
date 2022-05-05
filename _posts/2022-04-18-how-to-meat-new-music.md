@@ -5,10 +5,10 @@ description: ストリーミングサービスやSNSが普及した現代にお�
 contributors:
   - 
     name: モエキ
-    uri: https://moeki.dev
+    uri: https://wakaran.yhmk.org/members/moeki
   -
     name: ユイ
-    uri: https://yhmk.org
+    uri: https://wakaran.yhmk.org/members/yui
 date: 2022-04-18
 layout: post
 author: YHMK

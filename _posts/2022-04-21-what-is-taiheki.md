@@ -5,10 +5,10 @@ description: 野口晴哉が提唱した「体癖」について分からんな�
 contributors:
   - 
     name: モエキ
-    uri: https://moeki.dev
+    uri: https://wakaran.yhmk.org/members/moeki
   -
     name: ユイ
-    uri: https://yhmk.org
+    uri: https://wakaran.yhmk.org/members/yui
 date: 2022-04-21
 layout: post
 author: YHMK

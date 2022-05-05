@@ -5,10 +5,10 @@ description: どうして人は笑うときに手を叩いてしまうのか。�
 contributors:
   - 
     name: モエキ
-    uri: https://moeki.dev
+    uri: https://wakaran.yhmk.org/members/moeki
   -
     name: ユイ
-    uri: https://yhmk.org
+    uri: https://wakaran.yhmk.org/members/yui
 date: 2022-04-16
 layout: post
 author: YHMK

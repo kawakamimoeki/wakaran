@@ -5,10 +5,10 @@ description: 『言語が違えば、世界も違って見えるわけ』（ガ�
 contributors:
   - 
     name: モエキ
-    uri: https://moeki.dev
+    uri: https://wakaran.yhmk.org/members/moeki
   -
     name: ユイ
-    uri: https://yhmk.org
+    uri: https://wakaran.yhmk.org/members/yui
 date: 2022-04-24
 layout: post
 author: YHMK

@@ -5,10 +5,10 @@ description: GWに友人に誘われた内見会に向けて、2人は理想の�
 contributors:
   - 
     name: モエキ
-    uri: https://moeki.dev
+    uri: https://wakaran.yhmk.org/members/moeki
   -
     name: ユイ
-    uri: https://yhmk.org
+    uri: https://wakaran.yhmk.org/members/yui
 date: 2022-04-26
 layout: post
 author: YHMK

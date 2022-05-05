@@ -5,10 +5,10 @@ description: 信号待ちのときにふと疑問に感じた、信号機って�
 contributors:
   - 
     name: モエキ
-    uri: https://moeki.dev
+    uri: https://wakaran.yhmk.org/members/moeki
   -
     name: ユイ
-    uri: https://yhmk.org
+    uri: https://wakaran.yhmk.org/members/yui
 date: 2022-04-30
 layout: post
 author: YHMK
