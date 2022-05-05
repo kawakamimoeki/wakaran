@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<ul>
+{% for member in site.members -%}
+  <li class="mb-10">
+    <h2 class="font-bold text-xl mb-2">
+      <a href="{{ member.url }}">
+        {{ member.name }}
+      </a>
+    </h2>
+    <img src="/img/{{ member.avater }}" alt="{{ member.name }}" class="w-1/2 mx-auto mb-5 rounded-full">
+    <div class="article">
+      {{ member.content }}
+    </div>
+  </li>
+{% endfor %}
+</ul>

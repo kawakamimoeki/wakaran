@@ -32,3 +32,7 @@ amazon_url: https://music.amazon.co.jp/podcasts/da518c15-b7ce-49fd-941b-78f9c0aa
 
 episode_feed_formats: 
   - mp3
+
+collections:
+  members:
+    output: true
