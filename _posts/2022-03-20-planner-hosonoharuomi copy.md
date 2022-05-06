@@ -14,7 +14,7 @@ layout: post
 author: YHMK
 season: 1
 explicit: 'no'
-episdoe_type: full
+episode_type: full
 episode: 3
 duration: '00:37:06'
 audio:

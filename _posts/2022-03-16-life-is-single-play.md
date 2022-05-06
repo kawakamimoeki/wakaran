@@ -13,7 +13,7 @@ date: 2022-03-16
 layout: post
 author: YHMK
 season: 1
-episdoe_type: full
+episode_type: full
 episode: 1
 explicit: 'no'
 duration: '00:49:42'

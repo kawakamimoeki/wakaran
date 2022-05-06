@@ -14,7 +14,7 @@ layout: post
 author: YHMK
 season: 1
 explicit: 'no'
-episdoe_type: bonus
+episode_type: bonus
 episode: 15
 duration: '00:27:56'
 audio:
