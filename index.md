@@ -3,11 +3,11 @@ title: Podcast by YHMK
 layout: default
 ---
 
-<h3 class="mt-5 font-bold text-xl">メンバー</h3>
+<h3 class="mt-5 font-bold text-xl mb-2">メンバー</h3>
 
-<ul>
+<ul class="flex">
 {% for member in site.members -%}
-  <li class="mb-10">
+  <li class="mb-10 w-1/2 border-2 mx-2 p-3 rounded-lg">
     <h4 class="font-bold text-lg mb-2">
       <a href="{{ member.url }}">
         {{ member.name }}
