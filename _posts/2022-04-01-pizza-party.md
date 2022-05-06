@@ -13,7 +13,8 @@ date: 2022-04-01
 layout: post
 author: YHMK
 explicit: 'no'
-order: 6
+episdoe_type: full
+episode: 6
 duration: '00:34:18'
 audio:
   mp3:

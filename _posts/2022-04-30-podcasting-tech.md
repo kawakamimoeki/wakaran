@@ -13,7 +13,8 @@ date: 2022-04-30
 layout: post
 author: YHMK
 explicit: 'no'
-order: 15
+episdoe_type: bonus
+episode: 15
 duration: '00:27:56'
 audio:
   mp3:

@@ -12,7 +12,8 @@ contributors:
 date: 2022-03-17
 layout: post
 author: YHMK
-order: 2
+episdoe_type: full
+episode: 2
 explicit: 'no'
 duration: '00:53:37'
 audio:
