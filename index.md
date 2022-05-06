@@ -13,7 +13,7 @@ layout: default
         {{ member.name }}
       </a>
     </h4>
-    <img src="/img/{{ member.avater }}" alt="{{ member.name }}" class="w-1/2 mx-auto mb-5 rounded-full">
+    <img src="/img/{{ member.avater }}" alt="{{ member.name }}" class="w-2/3 mx-auto mb-5 rounded-full">
     <div class="article">
       {{ member.content }}
     </div>
