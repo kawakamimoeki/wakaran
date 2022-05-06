@@ -38,10 +38,24 @@
       text-decoration: underline;
       color: #125fff;
     }
+    body {
+      background-color: white;
+      color: #333;
+    }
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #333;
+        color: #fff;
+      }
+
+      .article a {
+        color: #129fff;
+      }
+    }
   </style>
 </head>
 
-<body class="p-7 text-black bg-white text-center m-auto" style="max-width: 400px;">
+<body class="p-7 text-center m-auto" style="max-width: 400px;">
   <header class="mt-5 mb-10">
     <h1 class="font-bold text-2xl mb-5">
       <a href="/">分からんラジオ</a></h1>
