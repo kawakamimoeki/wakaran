@@ -57,6 +57,7 @@
           <itunes:author>{{ post.author | otherwise:site.author }}</itunes:author>
           <itunes:duration>{{ post.duration }}</itunes:duration>
           <itunes:order>{{ post.episode }}</itunes:order>
+          <itunes:season>{{ post.season }}</itunes:season>
           <itunes:episodeType>{{ post.episode_type }}</itunes:episodeType>
           <itunes:episode>{{ post.episode }}</itunes:episode>
           <itunes:explicit>{{ post.explicit }}</itunes:explicit>

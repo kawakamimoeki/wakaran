@@ -12,6 +12,7 @@ contributors:
 date: 2022-03-25
 layout: post
 author: YHMK
+season: 1
 explicit: 'no'
 episdoe_type: full
 episode: 4
