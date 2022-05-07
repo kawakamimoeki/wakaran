@@ -47,11 +47,9 @@
     <img width="200px" height="200px" src="/img/logo-360x360.png" alt="{{ site.title }} logo" class="inline rounded-lg">
     <p class="mt-5">{{ site.description }}</p>
 
-    <h3 class="mt-5 font-bold text-xl">配信サービス</h3>
-
     <ul>
     {% for subscription in site.data.subscriptions %}
-      <li><a target="_blank" href="{{ subscription.url }}">{{ subscription.name }}</a></li>
+      <li><a target="_blank" href="{{ subscription.url }}"><img width="60%" src="{{ subscription.badge }}" class="mx-auto my-3" /></a></li>
     {% endfor %}
     </ul>
   </header>
@@ -63,6 +61,7 @@
     
     <ul>
       <li><a target="_blank" href="https://twitter.com/wakaranradio">Twitter</a></li>
+      <li><a target="_blank" href="https://www.youtube.com/channel/UCoS4YRIDZx0K34RpHbw-yqQ">YouTube</a></li>
       <li><a target="_blank" href="https://github.com/moekidev/wakaran">Github</a></li>
       <li><a target="_blank" href="https://yhmk.org">yhmk.org</a></li>
       <li><a target="_blank" href="https://www.instagram.com/tgcats2022/">愉快な猫たち - Instagram</a></li>
